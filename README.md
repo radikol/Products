@@ -56,8 +56,49 @@ Make sure the following tools are installed on your system:
 ## Project Structure
 
 ### Key Directories
-- **`app/Models`**: Contains the Eloquent models (e.g., `Product.php`).
-- **`app/Http/Controllers`**: Application controllers handle requests and responses (e.g., `ProductCrudController.php`).
+- **`app/Models`**: Contains the models - `Product.php`, `Category.php`.
+- **`app/Http/Controllers`**:
+  
+  `ProductCrudController.php` - This is a Laravel Backpack CRUD controller for managing products. Here's what it does:
+
+#### Core Functionality:
+- Handles product management (create, read, update, delete, list, show)
+- Uses Backpack CRUD framework
+- Validates requests using ProductRequest
+
+#### Operations:
+
+- List: Displays products in table
+- Show: Detailed view of single product
+- Create: Add new products
+- Update: Edit existing products
+- Delete: Remove products
+
+#### Setup:
+
+- Links to Product model
+- Sets admin route
+- Configures entity names
+
+The controller uses a reusable getFieldsData() method to maintain consistent field definitions across different operations while allowing context-specific display variations.
+
+  `CategoryCrudController.php` - This is a CategoryCrud controller that manages CRUD operations for categories using Laravel Backpack.
+  
+#### Key functions:
+
+- Lists categories with name column
+- Creates categories with name field
+- Updates existing categories
+- Deletes categories
+- Shows individual category details
+
+#### The controller:
+
+- Links to Category model
+- Sets admin route for categories
+- Uses CategoryRequest for validation
+- Supports standard CRUD operations (List, Create, Update, Delete, Show)
+
 - **`routes/web.php`**: Defines the web routes for the application.
 - **`resources/views`**: Contains Blade templates for views.
 - **`database/migrations`**: Defines the database structure.
