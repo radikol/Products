@@ -98,16 +98,17 @@ The controller uses a reusable getFieldsData() method to maintain consistent fie
 - Sets admin route for categories
 - Uses CategoryRequest for validation
 - Supports standard CRUD operations (List, Create, Update, Delete, Show)
-
+#
 - **`routes/web.php`**: Defines the web routes for the application.
 - **`resources/views`**: Contains Blade templates for views.
-- **`database/migrations`**: Defines the database structure.
+For example `image.blade.php`:
+The code inside displays an image if one exists for the entry:
 
-### Routes
-All product-related routes are defined using Laravel's resource routes in `routes/web.php`:
-```php
-Route::resource('products', ProductCrudController::class);
-```
+- Shows article image at 120px width
+- Uses relative path with /
+- Includes alt text for accessibility
+#
+- **`database/migrations`**: Defines the database structure. I have created the migrations for the categories, the products and the images.
 
 ## Usage
 
