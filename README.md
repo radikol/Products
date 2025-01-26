@@ -114,7 +114,7 @@ The code inside displays an image if one exists for the entry:
 
 ### Accessing the Application
 1. Open the application in your browser at `http://localhost:8000`.
-2. Navigate to `/admin`
+2. Simply click on "View the Products" or navigate to `/admin` to see them.
 
 ### Adding a New Category
 - Click the "+Add Category" button.
