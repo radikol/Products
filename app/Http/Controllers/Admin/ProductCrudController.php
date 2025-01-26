@@ -36,7 +36,7 @@ class ProductCrudController extends CrudController
                 'limit' => 100
             ],
             [
-                'label' => "Product Image",
+                'label' => "product image",
                 'name' => "image",
                 'type' => ($show ? 'view' : 'upload'),
                 'view' => 'partials/image',
