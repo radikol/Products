@@ -133,3 +133,6 @@ The code inside displays an image if one exists for the entry:
 ### Search
 - A product can be searched for by its name
 - A category can be searched for by its name
+
+### Back to the Webside
+- Click on "Backpack" in the upper left corner to return to the site.
