@@ -7,12 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Document Title, Description, and Author -->
-  <title>Wave - Bootstrap 5 One Page Template</title>
+  <title>Products</title>
   <meta name="description" content="Wave is a Bootstrap 5 One Page Template.">
   <meta name="author" content="BootstrapBrain">
 
   <!-- Favicon and Touch Icons -->
-  <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/favicon-512x512.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/image.png">
 
   <!-- Google Fonts Files -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +33,7 @@
     <nav id="scrollspyNav" class="navbar navbar-expand-lg bsb-tpl-bg-blue bsb-navbar bsb-navbar-hover bsb-navbar-caret bsb-tpl-navbar-sticky" data-bsb-sticky-target="#header">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="./assets/img/branding/wave-logo.svg" class="bsb-tpl-logo" alt="">
+          <img src="./assets/img/branding/logo.png" class="bsb-tpl-logo" alt="">
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -51,26 +51,9 @@
                 <a class="nav-link active" href="#scrollspyNav" aria-current="page" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyServices" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Services</a>
+                <a class="nav-link" href="#scrollspyServices" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">About Us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyPortfolio" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyAbout" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyTeam" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyPricing" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyBlog" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyContact" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Contact</a>
-              </li>
+              
             </ul>
           </div>
         </div>
@@ -84,15 +67,15 @@
     <div class="container overflow-hidden">
       <div class="row gy-3 gy-lg-0 align-items-lg-center justify-content-lg-between">
         <div class="col-12 col-lg-6 order-1 order-lg-0">
-          <h1 class="display-3 fw-bolder mb-3">We provide easy <br><mark class="bsb-tpl-highlight bsb-tpl-highlight-blue"><span class="bsb-tpl-font-hw display-2 text-accent fw-normal">solutions</span></mark> for startups at affordable rates.</h1>
-          <p class="fs-4 mb-5">Our methods are straight, comfortable, and established to ensure evolution and acceleration.</p>
+          <h1 class="display-3 fw-bolder mb-3">Here you can find different<mark class="bsb-tpl-highlight bsb-tpl-highlight-blue"><span class="bsb-tpl-font-hw display-2 text-accent fw-normal">products</span></mark>.</h1>
+          <p class="fs-4 mb-5">Premium quality, unbeatable value, and always in stock. Your satisfaction drives our standards.</p>
           <div class="d-grid gap-2 d-sm-flex">
-            <button type="button" class="btn btn-primary bsb-btn-3xl rounded-pill">Free Consultation</button>
-            <button type="button" class="btn btn-outline-primary bsb-btn-3xl rounded-pill">Buy Credits</button>
-          </div>
+            <a href="http://laravel.loc/admin/category"><button type="button" class="btn btn-primary bsb-btn-3xl rounded-pill">View the products</button></a>
+            <a href="#scrollspyServices"><button type="button" class="btn btn-outline-primary bsb-btn-3xl rounded-pill">About us</button>
+          </div></a>
         </div>
         <div class="col-12 col-lg-5 text-center">
-          <img class="img-fluid" loading="lazy" src="./assets/img/hero/hero-home.jpg" alt="" style="-webkit-mask-image: url(./assets/img/hero/hero-blob-1.svg); mask-image: url(./assets/img/hero/hero-blob-1.svg);">
+          <img class="img-fluid" loading="lazy" src="./assets/img/hero/supermarket.jpg" alt="" style="-webkit-mask-image: url(./assets/img/hero/hero-blob-1.svg); mask-image: url(./assets/img/hero/hero-blob-1.svg);">
         </div>
       </div>
     </div>
@@ -107,7 +90,7 @@
       <div class="container mb-5 mb-md-6 mb-xl-10">
         <div class="row justify-content-md-center">
           <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
-            <h2 class="display-3 fw-bolder mb-4">You will get the <br>perfect <mark class="bsb-tpl-highlight bsb-tpl-highlight-yellow"><span class="bsb-tpl-font-hw display-1 text-accent fw-normal">resolutions</span></mark> with our proficient services.</h2>
+            <h2 class="display-3 fw-bolder mb-4">From our first sale to today's expanding product line, we remain committed to <mark class="bsb-tpl-highlight bsb-tpl-highlight-yellow"><span class="bsb-tpl-font-hw display-1 text-accent fw-normal">excellence</span></mark> and <mark class="bsb-tpl-highlight bsb-tpl-highlight-yellow"><span class="bsb-tpl-font-hw display-1 text-accent fw-normal">innovation</span></mark> in everything we offer.</h2>
           </div>
         </div>
       </div>
@@ -116,65 +99,48 @@
         <div class="row gy-5 gx-md-4 gy-lg-0 gx-xxl-5 justify-content-center">
           <div class="col-11 col-sm-6 col-lg-3">
             <div class="badge bsb-tpl-bg-yellow text-primary p-3 mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-pie-chart" viewBox="0 0 16 16">
-                <path d="M7.5 1.018a7 7 0 0 0-4.79 11.566L7.5 7.793V1.018zm1 0V7.5h6.482A7.001 7.001 0 0 0 8.5 1.018zM14.982 8.5H8.207l-4.79 4.79A7 7 0 0 0 14.982 8.5zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z" />
-              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
+              <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
+              <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8m0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+            </svg>
             </div>
-            <h4 class="mb-3">Market Research</h4>
-            <p class="mb-3 text-secondary">We can help you to understand your target market and identify new opportunities for growth. We offer a variety of market research services, interviews, and focus groups.</p>
-            <a href="#!" class="fw-bold text-decoration-none link-primary">
-              Learn More
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-              </svg>
-            </a>
+            <h4 class="mb-3">Variety of Products</h4>
+            <p class="mb-3 text-secondary">From everyday essentials to specialty items, our extensive selection features over 10,000 products to meet all your needs. Each category is carefully curated to provide you with the widest range of choices at competitive prices.</p>
+            
           </div>
           <div class="col-11 col-sm-6 col-lg-3">
             <div class="badge bsb-tpl-bg-green text-primary p-3 mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-aspect-ratio" viewBox="0 0 16 16">
-                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z" />
-                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z" />
-              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8m5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0"/>
+              <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195z"/>
+              <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083q.088-.517.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1z"/>
+              <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 6 6 0 0 1 3.13-1.567"/>
+            </svg>
             </div>
-            <h4 class="mb-3">Web Design</h4>
-            <p class="mb-3 text-secondary">We can help you to create a visually appealing and user-friendly website. We take into account your brand identity and target audience when designing your website.</p>
-            <a href="#!" class="fw-bold text-decoration-none link-primary">
-              Learn More
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-              </svg>
-            </a>
+            <h4 class="mb-3">Low Prices</h4>
+            <p class="mb-3 text-secondary">Our competitive pricing delivers exceptional value on every purchase. We maintain the lowest rates in the market while ensuring top product quality, making premium items accessible to all our customers.</p>
+            
           </div>
           <div class="col-11 col-sm-6 col-lg-3">
-            <div class="badge bsb-tpl-bg-pink text-primary p-3 mb-4">
+          <div class="badge bsb-tpl-bg-cyan text-primary p-3 mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-square" viewBox="0 0 16 16">
+            <path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z"/>
+            <path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0"/>
+          </svg>
+            </div>
+            <h4 class="mb-3">Quality</h4>
+            <p class="mb-3 text-secondary">Our rigorous quality standards mean every product meets the highest industry benchmarks. Each item undergoes thorough testing and inspection, ensuring lasting performance that our customers trust.</p>
+            
+          </div>
+          <div class="col-11 col-sm-6 col-lg-3">
+          <div class="badge bsb-tpl-bg-pink text-primary p-3 mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-airplane-engines" viewBox="0 0 16 16">
                 <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0ZM7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1c.213 0 .458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7V3Z" />
               </svg>
             </div>
-            <h4 class="mb-3">SEO Services</h4>
-            <p class="mb-3 text-secondary">We can help you to improve your website's visibility in search engine results pages (SERPs). This can lead to more traffic to your website and more conversions.</p>
-            <a href="#!" class="fw-bold text-decoration-none link-primary">
-              Learn More
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-              </svg>
-            </a>
-          </div>
-          <div class="col-11 col-sm-6 col-lg-3">
-            <div class="badge bsb-tpl-bg-cyan text-primary p-3 mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
-                <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z" />
-                <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z" />
-              </svg>
-            </div>
-            <h4 class="mb-3">Content Marketing</h4>
-            <p class="mb-3 text-secondary">We can help you to promote your business online through a variety of digital marketing channels, including SEO, PPC, social media marketing, and email marketing.</p>
-            <a href="#!" class="fw-bold text-decoration-none link-primary">
-              Learn More
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-              </svg>
-            </a>
+            <h4 class="mb-3">Speed</h4>
+            <p class="mb-3 text-secondary">With our dedicated delivery network and efficient shipping system, we ensure your products arrive quickly and safely. Same-day dispatch and real-time tracking give you reliable, on-time delivery every time.</p>
+            
           </div>
         </div>
       </div>
@@ -184,79 +150,7 @@
   <!-- Footer 2 - Bootstrap Brain Component -->
   <footer class="footer">
 
-    <!-- Widgets - Bootstrap Brain Component -->
-    <section class="bg-light py-4 py-md-5 py-xl-8 border-top border-light">
-      <div class="container overflow-hidden">
-        <div class="row gy-4 gy-lg-0 justify-content-xl-between">
-          <div class="col-12 col-md-4 col-lg-3 col-xl-2">
-            <div class="widget">
-              <a href="#!">
-                <img src="./assets/img/branding/wave-logo.svg" alt="" class="bsb-tpl-logo-footer">
-              </a>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 col-xl-2">
-            <div class="widget">
-              <h4 class="widget-title mb-4">Get in Touch</h4>
-              <address class="mb-4">8014 Edith Blvd NE, Albuquerque, New York, United States</address>
-              <p class="mb-1">
-                <a class="link-secondary text-decoration-none" href="tel:+15057922430">(505) 792-2430</a>
-              </p>
-              <p class="mb-0">
-                <a class="link-secondary text-decoration-none" href="mailto:demo@yourdomain.com">demo@yourdomain.com</a>
-              </p>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 col-xl-2">
-            <div class="widget">
-              <h4 class="widget-title mb-4">Learn More</h4>
-              <ul class="list-unstyled">
-                <li class="mb-2">
-                  <a href="#!" class="link-secondary text-decoration-none">About</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#!" class="link-secondary text-decoration-none">Contact</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#!" class="link-secondary text-decoration-none">Advertise</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#!" class="link-secondary text-decoration-none">Terms of Service</a>
-                </li>
-                <li class="mb-0">
-                  <a href="#!" class="link-secondary text-decoration-none">Privacy Policy</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-12 col-lg-3 col-xl-4">
-            <div class="widget">
-              <h4 class="widget-title mb-4">Our Newsletter</h4>
-              <p class="mb-4">Subscribe to our newsletter to get our news & discounts delivered to you.</p>
-              <form action="#!">
-                <div class="row gy-4">
-                  <div class="col-12">
-                    <div class="input-group">
-                      <span class="input-group-text" id="email-newsletter-addon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                        </svg>
-                      </span>
-                      <input type="email" class="form-control" id="email-newsletter" value="" placeholder="Email Address" aria-label="email-newsletter" aria-describedby="email-newsletter-addon" required>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="d-grid">
-                      <button class="btn btn-primary" type="submit">Subscribe</button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
     <!-- Copyright - Bootstrap Brain Component -->
     <div class="bg-light py-4 py-md-5 py-xl-8 border-top border-light-subtle">
@@ -266,9 +160,7 @@
             <div class="copyright text-center text-md-start">
               &copy; 2023. All Rights Reserved.
             </div>
-            <div class="credits text-secondary text-center text-md-start mt-2 fs-7">
-              Built by <a href="https://bootstrapbrain.com/" class="link-secondary text-decoration-none">BootstrapBrain</a> with <span class="text-primary">&#9829;</span>
-            </div>
+            
           </div>
 
           <div class="col-xs-12 col-md-5 order-0 order-md-1">
