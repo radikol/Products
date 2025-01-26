@@ -32,7 +32,7 @@
     <!-- Navbar 1 - Bootstrap Brain Component -->
     <nav id="scrollspyNav" class="navbar navbar-expand-lg bsb-tpl-bg-blue bsb-navbar bsb-navbar-hover bsb-navbar-caret bsb-tpl-navbar-sticky" data-bsb-sticky-target="#header">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand">
           <img src="./assets/img/branding/logo.png" class="bsb-tpl-logo" alt="">
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">

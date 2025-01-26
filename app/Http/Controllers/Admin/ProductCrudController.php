@@ -23,7 +23,7 @@ class ProductCrudController extends CrudController
             ],
             [
                 'name' => 'category_id',
-                'label' => 'Category',
+                'label' => 'Category',  
                 'type' => 'select',
                 'entity' => 'category',
                 'attribute' => 'name',
